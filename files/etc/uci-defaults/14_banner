@@ -9,7 +9,7 @@ SUPERHOUSE="   _____ __  ______  __________  __  ______  __  _______ ______
  ___/ / /_/ / ____/ /___/ _, _/ __  / /_/ / /_/ /___/ / /___
 /____/\____/_/   /_____/_/ |_/_/ /_/\____/\____//____/_____/"
 
-echo "$SuperHouse" > /etc/banner
+echo "$SUPERHOUSE" > /etc/banner
 
 # add Omega firmware version
 version=$(uci get onion.@onion[0].version)
